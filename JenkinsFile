@@ -9,7 +9,7 @@ pipeline{
         stage('stage2'){
          steps{
            echo "this from 2"
-			sh "this sh "
+			sh "this sh sh "
 		}
              }
    }
